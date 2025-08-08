@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '../components/Header'
+import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import BoilerplateCard from '../components/BoilerplateCard'
 import { useFetchBoilerplates } from '../hooks/useFetchBoilerplates'
@@ -16,10 +16,8 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
       
-      <div className="min-h-screen bg-gray-50">
-        <Header />
-        
-        <main className="container mx-auto px-4 py-8">
+      <Layout>
+        <div className="container mx-auto px-4 py-8">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
               Welcome to BoilerplateHub
@@ -46,10 +44,10 @@ export default function Home() {
               <BoilerplateCard key={boilerplate.id} boilerplate={boilerplate} />
             ))}
           </div>
-        </main>
+        </div>
 
         <Footer />
-      </div>
+      </Layout>
     </>
   )
 }

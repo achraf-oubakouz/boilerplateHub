@@ -3,9 +3,12 @@ module.exports = {
   content: [
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  // Simplified theme for v4 compatibility
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sora': ['Sora', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

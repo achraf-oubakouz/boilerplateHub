@@ -7,6 +7,7 @@ const nextConfig = {
     // Add experimental features here
   },
 
+
   // Images configuration
   images: {
     domains: [
