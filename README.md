@@ -46,7 +46,7 @@ BoilerplateHub is a modern web application built with Next.js that serves as a c
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/boilerplatehub.git
+   git clone https://github.com/achraf-oubakouz/boilerplateHub.git
    cd boilerplatehub
    ```
 
@@ -183,7 +183,7 @@ We welcome contributions! Here's how you can help:
 
 If you encounter any bugs or have feature requests, please:
 
-1. Check if the issue already exists in [Issues](https://github.com/yourusername/boilerplatehub/issues)
+1. Check if the issue already exists in [Issues](https://github.com/achraf-oubakouz/boilerplateHub/issues)
 2. Create a new issue with detailed information
 3. Use the appropriate issue template
 
@@ -197,14 +197,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
 - [Vercel](https://vercel.com/) - Deployment and hosting platform
 - All the amazing contributors and boilerplate creators
-
-## 📞 Support
-
-- **Website:** [https://boilerplatehub.dev](https://boilerplatehub.dev)
-- **Email:** your.email@example.com
-- **GitHub Issues:** [Create an issue](https://github.com/yourusername/boilerplatehub/issues/new)
-
----
 
 <div align="center">
   <sub>Built with ❤️ by Achraf</sub>
