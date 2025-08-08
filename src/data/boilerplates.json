@@ -1,0 +1,83 @@
+[
+  {
+    "id": "react-typescript-starter",
+    "name": "React TypeScript Starter",
+    "description": "A modern React application boilerplate with TypeScript, Tailwind CSS, and essential tooling configured. Perfect for starting new React projects with best practices.",
+    "category": "Frontend",
+    "tags": ["React", "TypeScript", "Tailwind CSS", "Vite", "ESLint"],
+    "author": "BoilerplateHub Team",
+    "createdAt": "2024-01-15T10:00:00Z",
+    "updatedAt": "2024-02-01T14:30:00Z",
+    "downloadUrl": "/downloads/react-typescript-starter.zip",
+    "demoUrl": "https://react-ts-starter.vercel.app",
+    "githubUrl": "https://github.com/boilerplatehub/react-typescript-starter",
+    "featured": true
+  },
+  {
+    "id": "nextjs-saas-kit",
+    "name": "Next.js SaaS Starter Kit",
+    "description": "Complete SaaS application boilerplate with authentication, payments, dashboard, and admin panel. Built with Next.js, Prisma, and Stripe integration.",
+    "category": "Full Stack",
+    "tags": ["Next.js", "Prisma", "Stripe", "NextAuth", "Tailwind CSS", "PostgreSQL"],
+    "author": "SaaS Builders",
+    "createdAt": "2024-01-20T08:15:00Z",
+    "updatedAt": "2024-01-28T16:45:00Z",
+    "downloadUrl": "/downloads/nextjs-saas-kit.zip",
+    "demoUrl": "https://saas-starter.demo.com",
+    "githubUrl": "https://github.com/saasbuilders/nextjs-saas-kit",
+    "featured": true
+  },
+  {
+    "id": "express-api-boilerplate",
+    "name": "Express.js API Boilerplate",
+    "description": "RESTful API boilerplate with Express.js, MongoDB, JWT authentication, rate limiting, and comprehensive API documentation with Swagger.",
+    "category": "Backend",
+    "tags": ["Express.js", "MongoDB", "JWT", "Swagger", "Node.js", "REST API"],
+    "author": "API Architects",
+    "createdAt": "2024-01-10T12:20:00Z",
+    "updatedAt": "2024-01-25T09:10:00Z",
+    "downloadUrl": "/downloads/express-api-boilerplate.zip",
+    "githubUrl": "https://github.com/apiarchitects/express-api-boilerplate",
+    "featured": false
+  },
+  {
+    "id": "vue-nuxt-starter",
+    "name": "Vue.js Nuxt Starter",
+    "description": "Modern Vue.js application with Nuxt 3, TypeScript, Pinia for state management, and TailwindCSS for styling. Includes SEO optimization and PWA support.",
+    "category": "Frontend",
+    "tags": ["Vue.js", "Nuxt 3", "TypeScript", "Pinia", "Tailwind CSS", "PWA"],
+    "author": "Vue Community",
+    "createdAt": "2024-01-12T15:30:00Z",
+    "updatedAt": "2024-01-30T11:20:00Z",
+    "downloadUrl": "/downloads/vue-nuxt-starter.zip",
+    "demoUrl": "https://vue-nuxt-demo.netlify.app",
+    "githubUrl": "https://github.com/vuecommunity/vue-nuxt-starter",
+    "featured": false
+  },
+  {
+    "id": "flutter-firebase-app",
+    "name": "Flutter Firebase App",
+    "description": "Cross-platform mobile app boilerplate with Flutter and Firebase integration. Includes authentication, Firestore database, cloud functions, and push notifications.",
+    "category": "Mobile",
+    "tags": ["Flutter", "Firebase", "Dart", "Authentication", "Firestore", "Push Notifications"],
+    "author": "Mobile Devs",
+    "createdAt": "2024-01-18T13:45:00Z",
+    "updatedAt": "2024-02-02T10:15:00Z",
+    "downloadUrl": "/downloads/flutter-firebase-app.zip",
+    "githubUrl": "https://github.com/mobiledevs/flutter-firebase-app",
+    "featured": false
+  },
+  {
+    "id": "django-rest-api",
+    "name": "Django REST API",
+    "description": "Python Django REST framework boilerplate with PostgreSQL, JWT authentication, API documentation, Docker configuration, and comprehensive testing suite.",
+    "category": "Backend",
+    "tags": ["Django", "Python", "REST API", "PostgreSQL", "JWT", "Docker"],
+    "author": "Python Pros",
+    "createdAt": "2024-01-08T16:00:00Z",
+    "updatedAt": "2024-01-26T14:30:00Z",
+    "downloadUrl": "/downloads/django-rest-api.zip",
+    "githubUrl": "https://github.com/pythonpros/django-rest-api",
+    "featured": false
+  }
+]

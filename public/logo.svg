@@ -1,0 +1,8 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="12" fill="#3B82F6"/>
+  <path d="M25 35H75V45H25V35Z" fill="white"/>
+  <path d="M25 50H75V60H25V50Z" fill="white"/>
+  <path d="M25 65H55V75H25V65Z" fill="white"/>
+  <circle cx="70" cy="70" r="8" fill="white"/>
+  <text x="50" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">BH</text>
+</svg>

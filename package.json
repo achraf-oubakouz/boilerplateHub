@@ -2,26 +2,79 @@
   "name": "boilerplatehub",
   "version": "0.1.0",
   "private": true,
+  "description": "A collection of reusable development boilerplates for developers",
+  "keywords": [
+    "boilerplates",
+    "templates",
+    "development",
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://boilerplatehub.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/boilerplatehub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/boilerplatehub/issues"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "rimraf .next out dist",
+    "analyze": "cross-env ANALYZE=true next build",
+    "export": "next export"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "next": "15.4.6",
+    "postcss": "^8.5.6",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.6"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@next/bundle-analyzer": "^14.0.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
-    "@eslint/eslintrc": "^3"
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "rimraf": "^5.0.5",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
